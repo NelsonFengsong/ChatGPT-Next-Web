@@ -11,10 +11,10 @@ const cn = {
       : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
-    Title: "需要密码",
-    Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
-    Input: "在此处填写访问码",
+    Title: "需要密钥",
+    Tips: "请输入由 上海柏阳软件有限公司 提供的账号及授权密钥",
+    SubTips: "输入密钥即以 sk- 开头的内容",
+    Input: "shby",
     Confirm: "确认",
     Later: "稍后再说",
   },
@@ -288,7 +288,7 @@ const cn = {
         ApiKey: {
           Title: "API Key",
           SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
-          Placeholder: "OpenAI API Key",
+          Placeholder: "输入以 sk 开头的密钥",
         },
 
         Endpoint: {
@@ -349,7 +349,7 @@ const cn = {
       },
       CustomModel: {
         Title: "自定义模型名",
-        SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
+        SubTitle: "这里不会配置千万别改！！！",
       },
     },
 
