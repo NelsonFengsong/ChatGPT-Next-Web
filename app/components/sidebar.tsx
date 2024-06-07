@@ -152,10 +152,11 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat-SHBY
+          柏阳 ChatAI 平台
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          欢迎使用上海柏阳软件NextChat AI平台
+          欢迎使用上海柏阳软件提供的 ChatAI
+          平台服务，本平台承诺不截取或存储聊天数据，用户需遵守法律法规并自行承担不当使用的法律责任，且本平台提供的服务和信息仅供参考，用户需自行判断和承担使用本平台服务的风险。
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -176,13 +177,13 @@ export function SideBar(props: { className?: string }) {
           }}
           shadow
         />
-        <IconButton
-          icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
-          className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
-          shadow
-        />
+        {/*<IconButton*/}
+        {/*  icon={<PluginIcon />}*/}
+        {/*  text={shouldNarrow ? undefined : Locale.Plugin.Name}*/}
+        {/*  className={styles["sidebar-bar-button"]}*/}
+        {/*  onClick={() => showToast(Locale.WIP)}*/}
+        {/*  shadow*/}
+        {/*/>*/}
       </div>
 
       <div
