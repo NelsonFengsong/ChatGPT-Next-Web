@@ -32,13 +32,18 @@ export function AuthPage() {
 
   return (
     <div className={styles["auth-page"]}>
-      <div className={`no-dark ${styles["auth-logo"]}`}>
-        <BotIcon />
+      {/*<div className={`no-dark ${styles["auth-logo"]}`}>*/}
+      {/*    <BotIcon/>*/}
+      {/*</div>*/}
+      {/*<div className={styles["auth-title"]}>{Locale.Auth.Title}</div>*/}
+      <div className={styles["auth-actions"]}>
+        <img
+          src="https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663c7676bf08.png"
+          className={styles["auth-image"]}
+          // alt="Weixin"
+        />
       </div>
-
-      <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
       <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
-
       {/*<input*/}
       {/*  className={styles["auth-input"]}*/}
       {/*  type="password"*/}

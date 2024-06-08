@@ -229,6 +229,18 @@ export function SideBar(props: { className?: string }) {
           {/*  </a>*/}
           {/*</div>*/}
         </div>
+        <IconButton
+          icon={<PluginIcon />}
+          text="微信客服"
+          className={styles["sidebar-bar-button"]}
+          onClick={() => {
+            window.open(
+              "https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663ba7c36746.png",
+              "_blank",
+            );
+          }}
+          shadow
+        />
         <div>
           <IconButton
             icon={<AddIcon />}

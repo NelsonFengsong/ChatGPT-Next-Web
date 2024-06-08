@@ -8,11 +8,11 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "访问密码不正确或为空，请[点击此处前往登录页](/#/auth)输入正确的访问密码。",
   },
   Auth: {
     Title: "需要密钥",
-    Tips: "请输入由 上海柏阳软件有限公司 提供的账号及授权密钥",
+    Tips: "请先使用微信扫描客服二维码，并在下方输入授权密钥",
     SubTips: "输入密钥即以 sk- 开头的内容",
     Input: "shby",
     Confirm: "确认",
@@ -356,23 +356,27 @@ const cn = {
     Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
-      SubTitle: "值越大，回复越随机",
+      SubTitle: "值越大，回复越随机。【注意】不确定参数意义的前提下请勿修改！",
     },
     TopP: {
       Title: "核采样 (top_p)",
-      SubTitle: "与随机性类似，但不要和随机性一起更改",
+      SubTitle:
+        "与随机性类似，但不要和随机性一起更改。【注意】不确定参数意义的前提下请勿修改！",
     },
     MaxTokens: {
       Title: "单次回复限制 (max_tokens)",
-      SubTitle: "单次交互所用的最大 Token 数",
+      SubTitle:
+        "单次交互所用的最大 Token 数。【注意】不确定参数意义的前提下请勿修改！",
     },
     PresencePenalty: {
       Title: "话题新鲜度 (presence_penalty)",
-      SubTitle: "值越大，越有可能扩展到新话题",
+      SubTitle:
+        "值越大，越有可能扩展到新话题。【注意】不确定参数意义的前提下请勿修改！",
     },
     FrequencyPenalty: {
       Title: "频率惩罚度 (frequency_penalty)",
-      SubTitle: "值越大，越有可能降低重复字词",
+      SubTitle:
+        "值越大，越有可能降低重复字词。【注意】不确定参数意义的前提下请勿修改！",
     },
   },
   Store: {

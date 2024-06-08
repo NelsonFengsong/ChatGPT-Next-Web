@@ -17,11 +17,16 @@
   }
 
   .auth-tips {
-    font-size: 14px;
+    margin: 2vh 0;
+    font-size: 18px;
+    font-weight: bold;
   }
 
+
   .auth-input {
-    margin: 3vh 0;
+    margin: 0 0;
+    max-width: 300px; // 设置最大宽度
+    width: 100%; // 确保图片在较小屏幕上也能响应式缩放
   }
 
   .auth-actions {
@@ -30,7 +35,15 @@
     flex-direction: column;
 
     button:not(:last-child) {
-      margin-bottom: 10px;
+      margin: 2vh 0;
+      //margin-bottom: 10px;
     }
+  }
+  .auth-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 180px; // 设置最大宽度
+    width: 100%; // 确保图片在较小屏幕上也能响应式缩放
+    height: auto; // 等比例缩放高度
   }
 }
