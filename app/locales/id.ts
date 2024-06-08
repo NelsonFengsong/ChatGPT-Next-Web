@@ -9,7 +9,8 @@ const id: PartialLocaleType = {
   },
   Auth: {
     Title: "Diperlukan Kode Akses",
-    Tips: "Masukkan kode akses di bawah",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "Atau masukkan kunci API OpenAI Anda",
     Input: "Kode Akses",
     Confirm: "Konfirmasi",
@@ -369,8 +370,8 @@ const id: PartialLocaleType = {
   },
   Exporter: {
     Description: {
-      Title: "Hanya pesan setelah menghapus konteks yang akan ditampilkan"
-    },  
+      Title: "Hanya pesan setelah menghapus konteks yang akan ditampilkan",
+    },
     Model: "Model",
     Messages: "Pesan",
     Topic: "Topik",

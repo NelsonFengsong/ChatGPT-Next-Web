@@ -43,7 +43,8 @@ export function AuthPage() {
           // alt="Weixin"
         />
       </div>
-      <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
+      <div className={styles["auth-tips"]}>{Locale.Auth.TipsA}</div>
+      <div className={styles["auth-tips"]}>{Locale.Auth.TipsB}</div>
       {/*<input*/}
       {/*  className={styles["auth-input"]}*/}
       {/*  type="password"*/}

@@ -13,7 +13,8 @@ const tw = {
 
   Auth: {
     Title: "需要密碼",
-    Tips: "管理員開啟了密碼驗證，請在下方填入存取密碼",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "或者輸入你的 OpenAI 或 Google API 金鑰",
     Input: "在此處填寫存取密碼",
     Confirm: "確認",

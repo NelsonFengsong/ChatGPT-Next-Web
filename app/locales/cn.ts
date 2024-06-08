@@ -12,7 +12,8 @@ const cn = {
   },
   Auth: {
     Title: "需要密钥",
-    Tips: "请先使用微信扫描客服二维码，并在下方输入授权密钥",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "输入密钥即以 sk- 开头的内容",
     Input: "shby",
     Confirm: "确认",

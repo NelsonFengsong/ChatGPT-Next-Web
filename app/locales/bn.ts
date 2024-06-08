@@ -9,7 +9,8 @@ const bn: PartialLocaleType = {
   },
   Auth: {
     Title: "একটি অ্যাক্সেস কোড প্রয়োজন",
-    Tips: "নীচে অ্যাক্সেস কোড ইনপুট করুন",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "অথবা আপনার OpenAI API কী প্রবেশ করুন",
     Input: "অ্যাক্সেস কোড",
     Confirm: "নিশ্চিত করুন",

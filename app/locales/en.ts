@@ -14,7 +14,8 @@ const en: LocaleType = {
   },
   Auth: {
     Title: "Need Access Code",
-    Tips: "Please enter access code below",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "Or enter your OpenAI or Google API Key",
     Input: "access code",
     Confirm: "Confirm",

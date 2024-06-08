@@ -13,7 +13,8 @@ const pt: PartialLocaleType = {
   },
   Auth: {
     Title: "Necessário Código de Acesso",
-    Tips: "Por favor, insira o código de acesso abaixo",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "Ou insira sua Chave API OpenAI",
     Input: "código de acesso",
     Confirm: "Confirmar",

@@ -15,7 +15,8 @@ const sk: PartialLocaleType = {
   },
   Auth: {
     Title: "Potrebný prístupový kód",
-    Tips: "Prosím, zadajte prístupový kód nižšie",
+    TipsA: "请先扫描企业微信客服以便随时咨询",
+    TipsB: "获取授权密钥后在下方输入",
     SubTips: "Alebo zadajte váš OpenAI alebo Google API kľúč",
     Input: "prístupový kód",
     Confirm: "Potvrdiť",
