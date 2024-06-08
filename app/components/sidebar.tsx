@@ -186,6 +186,20 @@ export function SideBar(props: { className?: string }) {
           }}
           shadow
         />
+        <div className={styles["sidebar-action"]}>
+          <IconButton
+            icon={<PluginIcon />}
+            text="微信客服"
+            className={styles["sidebar-bar-button"]}
+            onClick={() => {
+              window.open(
+                "https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663ba7c36746.png",
+                "_blank",
+              );
+            }}
+            shadow
+          />
+        </div>
         {/*<IconButton*/}
         {/*  icon={<PluginIcon />}*/}
         {/*  text={shouldNarrow ? undefined : Locale.Plugin.Name}*/}
@@ -220,7 +234,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
-              <IconButton icon={<SettingsIcon />} shadow />
+              <IconButton icon={<SettingsIcon />} text="设置" shadow />
             </Link>
           </div>
           {/*<div className={styles["sidebar-action"]}>*/}
@@ -229,18 +243,7 @@ export function SideBar(props: { className?: string }) {
           {/*  </a>*/}
           {/*</div>*/}
         </div>
-        <IconButton
-          icon={<PluginIcon />}
-          text="微信客服"
-          className={styles["sidebar-bar-button"]}
-          onClick={() => {
-            window.open(
-              "https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663ba7c36746.png",
-              "_blank",
-            );
-          }}
-          shadow
-        />
+
         <div>
           <IconButton
             icon={<AddIcon />}
