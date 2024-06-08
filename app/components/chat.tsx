@@ -1548,7 +1548,11 @@ function _Chat() {
           />
         </label>
       </div>
-
+      <div>
+        <footer className={styles.footer}>
+          © 2022-2024 上海柏阳软件有限公司 | 沪ICP备2023014837号-1
+        </footer>
+      </div>
       {showExport && (
         <ExportMessageModal onClose={() => setShowExport(false)} />
       )}
