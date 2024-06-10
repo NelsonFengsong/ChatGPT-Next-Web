@@ -174,32 +174,30 @@ export function SideBar(props: { className?: string }) {
 
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
-          icon={<MaskIcon />}
-          text={shouldNarrow ? undefined : Locale.Mask.Name}
+          icon={<PluginIcon />}
+          text="模型介绍"
           className={styles["sidebar-bar-button"]}
           onClick={() => {
-            if (config.dontShowMaskSplashScreen !== true) {
-              navigate(Path.NewChat, { state: { fromHome: true } });
-            } else {
-              navigate(Path.Masks, { state: { fromHome: true } });
-            }
+            window.open(
+              "https://fengsong.notion.site/ChatAI-a355a972139243fda7f32594cf87de86?pvs=4",
+              "_blank",
+            );
           }}
           shadow
         />
-        <div className={styles["sidebar-action"]}>
-          <IconButton
-            icon={<PluginIcon />}
-            text="微信客服"
-            className={styles["sidebar-bar-button"]}
-            onClick={() => {
-              window.open(
-                "https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663ba7c36746.png",
-                "_blank",
-              );
-            }}
-            shadow
-          />
-        </div>
+
+        <IconButton
+          icon={<PluginIcon />}
+          text="微信客服"
+          className={styles["sidebar-bar-button"]}
+          onClick={() => {
+            window.open(
+              "https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663ba7c36746.png",
+              "_blank",
+            );
+          }}
+          shadow
+        />
         {/*<IconButton*/}
         {/*  icon={<PluginIcon />}*/}
         {/*  text={shouldNarrow ? undefined : Locale.Plugin.Name}*/}
@@ -234,7 +232,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
-              <IconButton icon={<SettingsIcon />} text="设置" shadow />
+              <IconButton icon={<SettingsIcon />} />
             </Link>
           </div>
           {/*<div className={styles["sidebar-action"]}>*/}
@@ -243,7 +241,21 @@ export function SideBar(props: { className?: string }) {
           {/*  </a>*/}
           {/*</div>*/}
         </div>
-
+        <div className={styles["sidebar-actions"]}>
+          <IconButton
+            icon={<MaskIcon />}
+            text={shouldNarrow ? undefined : Locale.Mask.Name}
+            className={styles["sidebar-action"]}
+            onClick={() => {
+              if (config.dontShowMaskSplashScreen !== true) {
+                navigate(Path.NewChat, { state: { fromHome: true } });
+              } else {
+                navigate(Path.Masks, { state: { fromHome: true } });
+              }
+            }}
+            shadow
+          />
+        </div>
         <div>
           <IconButton
             icon={<AddIcon />}
