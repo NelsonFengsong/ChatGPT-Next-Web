@@ -8,9 +8,9 @@ export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/c
 export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
-export const DEFAULT_API_HOST = "https://api.nextchat.dev";
+export const DEFAULT_API_HOST = "https://chatapi.shanghaibaiyang.com";
 export const OPENAI_BASE_URL = "https://chatapi.shanghaibaiyang.com";
-export const ANTHROPIC_BASE_URL = "https://api.anthropic.com";
+export const ANTHROPIC_BASE_URL = "https://chatapi.shanghaibaiyang.com";
 
 export const GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/";
 
@@ -206,7 +206,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "google",
       providerName: "Google",
-      providerType: "google",
+      providerType: "openai",
     },
   })),
   ...anthropicModels.map((name) => ({
@@ -215,7 +215,7 @@ export const DEFAULT_MODELS = [
     provider: {
       id: "anthropic",
       providerName: "Anthropic",
-      providerType: "anthropic",
+      providerType: "openai",
     },
   })),
 ] as const;
