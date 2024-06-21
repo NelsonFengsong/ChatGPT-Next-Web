@@ -192,7 +192,7 @@ export function SideBar(props: { className?: string }) {
           className={styles["sidebar-bar-button"]}
           onClick={() => {
             window.open(
-              "https://pic-bed.shanghaibaiyang.com/i/2024/06/08/6663ba7c36746.png",
+              "https://work.weixin.qq.com/kfid/kfc6ead280156b4d7ad",
               "_blank",
             );
           }}
