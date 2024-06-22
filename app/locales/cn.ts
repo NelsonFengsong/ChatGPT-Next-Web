@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请[点击此处前往登录页](/#/auth)输入正确的访问密码。",
+      : "访问密码不正确或为空。若暂无密钥，请点击联系 [上海柏阳软件 - 企业微信客服](https://work.weixin.qq.com/kfid/kfc6ead280156b4d7ad) 申请密钥。而后[ 前往登录页 ](/#/auth)输入正确的访问密码。",
   },
   Auth: {
     Title: "需要密钥",
