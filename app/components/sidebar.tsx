@@ -161,12 +161,12 @@ export function SideBar(props: { className?: string }) {
             本平台承诺不截取或存储聊天数据，用户需遵守法律法规并自行承担不当使用的法律责任，且本平台提供的服务和信息仅供参考，用户需自行判断和承担使用本平台服务的风险。
           </p>
         </div>
-        <div className={styles["sidebar-sub-title"]}>
-          <p>
-            任何疑问请联系{" "}
-            <a href="mailto:fengsong.succ@gmail.com">fengsong.succ@gmail.com</a>
-          </p>
-        </div>
+        {/*<div className={styles["sidebar-sub-title"]}>*/}
+        {/*  <p>*/}
+        {/*    任何疑问请联系{" "}*/}
+        {/*    <a href="mailto:fengsong.succ@gmail.com">fengsong.succ@gmail.com</a>*/}
+        {/*  </p>*/}
+        {/*</div>*/}
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
