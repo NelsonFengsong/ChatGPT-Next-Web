@@ -412,7 +412,9 @@
   max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.02);
+  //background-image: linear-gradient(to right top, #f2f2f2, #f3f3f3, #f4f4f4, #f4f4f4, #f5f5f5, #f5f5f5, #f4f4f4, #f4f4f4, #f3f3f3, #f1f2f1, #f0f0f0, #efefef);
+  //background-image: linear-gradient(to right bottom, #faffff, #faffff, #f9ffff, #f9feff, #f9feff, #f9feff, #f8feff, #f8feff, #f7feff, #f7feff, #f6feff, #f5feff);
   padding: 10px;
   font-size: 14px;
   user-select: text;
@@ -495,7 +497,7 @@
 }
 
 .chat-message-user>.chat-message-container>.chat-message-item {
-  background-color: var(--second);
+  background-image: var(--second);
 
   &:hover {
     min-width: 0;

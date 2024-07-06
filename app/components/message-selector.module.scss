@@ -46,7 +46,7 @@
       cursor: pointer;
 
       &-selected {
-        background-color: var(--second);
+        background-image: var(--second);
       }
 
       &:not(:last-child) {

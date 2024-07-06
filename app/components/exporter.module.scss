@@ -109,7 +109,7 @@
     background-color: var(--gray);
 
     .chat-info {
-      background-color: var(--second);
+      background-image: var(--second);
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 20px;
@@ -260,7 +260,7 @@
         }
 
         .body {
-          background-color: var(--second);
+          background-image: var(--second);
           margin-right: 10px;
         }
       }
