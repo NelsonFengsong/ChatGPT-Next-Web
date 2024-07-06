@@ -37,6 +37,7 @@ export const createEmptyMask = () =>
     lang: getLang(),
     builtin: false,
     createdAt: Date.now(),
+    hideContext: true,
   }) as Mask;
 
 export const useMaskStore = createPersistStore(
@@ -51,6 +52,7 @@ export const useMaskStore = createPersistStore(
         ...mask,
         id,
         builtin: false,
+        hideContext: mask?.hideContext ?? true, // 如果未定义，则设置默认值为 true
       };
 
       set(() => ({ masks }));
