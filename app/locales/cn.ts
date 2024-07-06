@@ -175,7 +175,7 @@ const cn = {
     TightBorder: "无边框模式",
     SendPreviewBubble: {
       Title: "预览气泡",
-      SubTitle: "在预览气泡中预览 Markdown 内容",
+      SubTitle: "在聊天对话框中实时预览正在输入的内容",
     },
     AutoGenerateTitle: {
       Title: "自动生成标题",
