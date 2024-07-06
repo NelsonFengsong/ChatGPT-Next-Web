@@ -671,6 +671,11 @@ function _Chat() {
   const config = useAppConfig();
   const fontSize = config.fontSize;
 
+  // 想让页面加载的时候就是最大化的
+  // useEffect(() => {
+  //   config.update((config) => (config.tightBorder = true));
+  // }, []);
+
   const [showExport, setShowExport] = useState(false);
 
   const inputRef = useRef<HTMLTextAreaElement>(null);
