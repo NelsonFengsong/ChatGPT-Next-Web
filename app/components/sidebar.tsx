@@ -189,7 +189,7 @@ export function SideBar(props: { className?: string }) {
 
         <IconButton
           icon={<WeChatIcon />}
-          text="企业微信客服"
+          text={shouldNarrow ? undefined : "企业微信客服"}
           className={styles["sidebar-bar-button"]}
           onClick={() => {
             window.open(

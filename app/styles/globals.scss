@@ -9,7 +9,7 @@
   --black: rgb(48, 48, 48);
   --gray: rgb(250, 250, 250);
   --primary: rgb(29, 147, 171);
-  --second: rgb(231, 248, 255);
+  --second: linear-gradient(to right top, #c9fdff, #cbf9ff, #cef6ff, #d2f2ff, #d6eeff, #d6eeff, #d5eeff, #d5eeff, #d0f3ff, #cdf7ff, #cbfbff, #cbfffb);
   --hover-color: #f3f3f3;
   --bar-color: rgba(0, 0, 0, 0.1);
   --theme-color: var(--gray);
@@ -30,7 +30,7 @@
   --black: rgb(187, 187, 187);
   --gray: rgb(21, 21, 21);
   --primary: rgb(29, 147, 171);
-  --second: rgb(27 38 42);
+  --second: linear-gradient(to right top, #2c3a3a, #263a3d, #213a42, #1e3947, #1f374b, #1e384d, #1c384e, #1b3950, #133d4e, #12404b, #174247, #1f4442);
   --hover-color: #323232;
 
   --bar-color: rgba(255, 255, 255, 0.1);
